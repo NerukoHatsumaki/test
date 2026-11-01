@@ -1,0 +1,150 @@
+﻿body {
+	background: #DEDECA;
+	margin: 0;
+	font-size: 14pt;
+	font-family: "Times New Roman", "標楷體";
+	margin-top: 5px;
+}
+
+.efont {
+	font-family: "Times New Roman";
+}
+
+.cfont {
+	 
+}
+
+td font.cfont{
+
+}
+
+.style1 {color: #FF0000}
+.table1 {
+	border: 1px solid #DEDECA;
+	font-size: 11pt;
+	padding: 0px;
+	margin: 0px;
+}
+.table1 td, th{
+	border: 1px dotted #E6EAD3;
+}
+.table2 {
+	border: 1px solid #DEDECA;
+	font-size: 11pt;
+	padding: 0px;
+	margin: 0px;
+}
+a:link {
+	color: #FF0000;
+}
+a:visited {
+	color: #A68358;
+}
+a:hover {
+	color: #735A3C;
+}
+a:active {
+	color: #C41040;
+}
+.item td {
+	border-collapse: collapse;
+	color: #555;
+	text-align: center;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-top-color: #DEDECA;
+	border-right-color: #DEDECA;
+	border-bottom-color: #A4A46A;
+	border-left-color: #95955B;
+	cursor: pointer;
+}
+
+.imageButton
+{
+	cursor: pointer;
+}
+
+/*固定長寬*/
+.oneColFixCtrHdr1 #container { 
+	width: 994px;  /* 使用比完整少 30px 的寬度會允許使用瀏覽器邊框並且避免水平捲軸出現 */
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	background-image: url(images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height:748px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.oneColFixCtrHdr1 #header {
+	background: #DDDDDD; 
+}
+.oneColFixCtrHdr1 #header h1 {
+	margin: 0; 
+}
+
+eColFixCtrHdr1 #header h1 {
+	margin: 0; 
+}
+
+.score {
+	border: medium double #0099CC;
+	background:#D3E4E5;
+	border:medium double gray;
+	border-collapse:collapse;
+	line-height: 18px;
+	width: 800px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.score th {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-color: #99BCBF;
+    padding: .5em; 
+   /* text-align: right;*/
+}
+.score td 
+{
+    border-top: 1px solid #99BCBF;
+    border-bottom: 1px solid #99BCBF;
+    background-repeat: repeat-x;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	color: #363636;
+	padding: .5em;
+    width: 50%;
+    border-left-color: #99BCBF;
+    border-right-color: #99BCBF;
+}
+
+.questionnaire {
+	border: medium double #0099CC;
+	background:#D3E4E5;
+	border:medium double gray;
+	border-collapse:collapse;
+	width: 860px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+
+ .questionnaire td {
+	color:#363636;
+	padding:0.4em;
+	border: 1px dashed #99BCBF;
+}
